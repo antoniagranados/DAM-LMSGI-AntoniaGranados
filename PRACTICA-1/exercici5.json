@@ -1,0 +1,53 @@
+﻿{
+  "enquestes": [
+    {
+      "id": 1,
+      "títol": "Consola u ordinador",
+      "activa": true,
+      "llista_preguntes": [
+        {
+          "ordre": 1,
+          "text": "Et consideres jugador d'ordinador o de consola?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Ordinador",
+            "Consola",
+            "Ambdúes"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quantes hores jugues a la setmana?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Menys de 5 hores",
+            "Entre 5 i 10 hores",
+            "Més de 10 hores"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "títol": "Satisfacció del suport tècnic",
+      "activa": false,
+      "llista_preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com valores la rapidesa de l'antenció rebuda?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Excel·lent",
+            "Acceptable",
+            "Deficient"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Deixa els teus comentaris o suggeriments:",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
