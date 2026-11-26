@@ -1,0 +1,71 @@
+header {
+    background-color: #2c3e50; /* Color de fons del header */
+    color: white; /* Color del text */
+    display: flex; /* Flexbox */
+    justify-content:space-between; /* Espai entre els elements */
+    align-items: center; /* Centrat verticalment */
+    padding: 0 20px 0 20px; /* Padding top/bottom de zero, i left/right de 20px*/   
+    flex-basis: 100%; /* Fa que el header ocupi tota l'amplada del flex container */
+}
+
+.menuDreta {    
+    display: flex; /* Flexbox per al menú de la dreta */
+    list-style: none; /* Treu els punts de la llista */
+    gap: 20px; /* Espai entre els elements del menú */
+    font-size: 20px; /* Mida de la font del menú de la dreta */
+}
+
+.menuDreta a {
+    color: white; /* Color del text dels enllaços del menú */
+    text-decoration:none; /* Treu el subratllat dels enllaços */
+}
+
+.menuDreta a:hover {
+    color:cornflowerblue; /* Color del text quan es passa el ratolí per sobre */
+    text-decoration: underline; /* Subratllat quan es passa el ratolí per sobre */
+}
+
+body {
+    background-color: #ecf0f1; /* Color de fons del body */
+    display: flex; /* Utilitza flexbox */
+    flex-wrap: wrap; /* Permet que els elements es moguin a la següent línia si cal */
+    justify-content: space-between; /* Espai entre els elements del body */
+}
+
+main {
+    flex-basis: 70%; /* Fa que el main ocupi el 70% de l'amplada del flex container */
+}
+
+article {
+    background-color: white; /* Color de fons de l'article */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra de l'article */   
+    border-left: 4px solid #27ae60; /* Vora esquerra de l'article */
+    padding-left: 15px; /* Padding esquerra de l'article */
+}
+
+p {
+    font-size: 20px; /* Mida de la font dels paràgrafs */
+}
+
+aside {
+    flex-basis: 28%; /* Fa que l'aside ocupi el 28% de l'amplada del flex container */
+}
+
+aside h2 {
+    color: darkgreen; /* Color del títol de l'aside */
+}
+
+aside ul {
+    font-size: 20px;
+}
+
+aside li::marker {
+    color: #27ae60; /* Color dels punts de la llista de l'aside */
+}
+
+footer {
+    text-align: center; /* Text del footer centrat */
+    background-color: #2c3e50; /* Color de fons del footer */
+    color: #bdc3c7; /* Color del text del footer */
+    flex-basis: 100%; /* Fa que el footer ocupi tota l'amplada del flex container */
+}

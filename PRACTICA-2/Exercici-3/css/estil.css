@@ -1,0 +1,128 @@
+/* General */
+body {
+    font-family:sans-serif, Arial, Helvetica; /* Estableix la font per defecte per a tot el document */
+    background-color:cornsilk; /* Estableix el color de fons per defecte per a tot el document */
+}
+
+header h1 {
+    text-align: center; /* Centra el text dins del header */
+    padding: 30px; /* Afegeix espai al voltant del text del header */
+    color: green; /* Estableix el color del text del header */
+}
+
+.menuNav {
+    display: flex; /* Mostra els elements del menú en línia */
+    align-items: center; /* Centra verticalment els elements del menú */
+    justify-content:center; /* Centra horitzontalment els elements del menú */
+    gap: 60px; /* Afegeix espai entre els elements del menú */
+    list-style: none; /* Elimina els punts de la llista */
+    font-size: 22px; /* Estableix la mida de la font del menú */
+    margin-bottom: 100px; /* Inicien al mateix nivell */
+}
+
+.menuNav a {
+    text-decoration: none; /* Elimina la subratllat dels enllaços del menú */
+    color: green; /* Estableix el color dels enllaços del menú */
+}
+
+.menuNav a:hover {
+    text-decoration: underline; /* Subratlla els enllaços quan es passa el cursor per sobre */
+    color: cornflowerblue; /* Canvia el color dels enllaços quan es passa el cursor per sobre */
+}
+
+footer {
+    text-align: center; /* Centra el text dins del footer */
+    padding: 20px; /* Afegeix espai al voltant del text del footer */
+}
+
+
+
+/* Index.html*/
+.centrat {
+    text-align: center; /* Centra el text dins de l'element amb la classe centrat */
+}
+
+blockquote {
+    font-style: italic; /* Aplica estil cursiva al text de les citacions */
+    font-size: 18px; /* Estableix la mida de la font de les citacions */
+    color: darkslategray; /* Estableix el color del text de les citacions */
+}
+
+
+
+/* Culturals.html*/
+table {
+    border-collapse:collapse; /* Combina les fronteres de les cel·les de la taula */
+    width: 45%; /* Estableix l'amplada de la taula */
+    margin: 0 auto; /* Centra la taula horitzontalment */
+}
+table, th, td {
+    border: 1px solid black; /* Estableix la frontera de les cel·les de la taula */
+    font-size: 18px; /* Estableix la mida de la font de les cel·les de la taula */
+}
+th, td {
+    padding: 10px; /* Afegeix espai dins de les cel·les de la taula */
+    text-align: left; /* Alinea el text a l'esquerra dins de les cel·les de la taula */
+}
+caption, h2 {
+    font-weight: bold; /* Aplica negreta al text del caption i h2 */
+    font-size: 20px; /* Estableix la mida de la font del caption i h2 */
+    margin-bottom: 25px; /* Afegeix espai sota del caption i h2 */
+}
+
+tfoot tr td {
+    border-bottom: 1px solid transparent; /* Estableix la frontera inferior transparent de les cel·les del peu de taula */
+    border-left: 1px solid transparent; /* Estableix la frontera esquerra transparent de les cel·les del peu de taula */
+    border-right: 1px solid transparent; /* Estableix la frontera dreta transparent de les cel·les del peu de taula */
+    margin-top: 10px; /* Afegeix espai sobre les cel·les del peu de taula */
+}
+
+
+
+/* Naturals.html */
+article {
+    display: flex; /* Aplica un model de caixa flexible a l'article */
+    flex-direction: column; /* Organitza els elements fills en columna */
+    align-items: center; /* Centra els elements fills horitzontalment */
+}
+
+article li {
+    list-style: none; /* Elimina els punts de la llista */
+    font-size: 20px; /* Estableix la mida de la font dels elements de la llista */
+    font-weight: bold; /* Aplica negreta al text dels elements de la llista */
+}
+
+img {
+    width: 640px; /* Estableix l'amplada de la imatge */
+    height: 480px; /* Estableix l'alçada de la imatge */
+}
+
+figcaption {
+    font-style: italic; /* Aplica estil cursiva al text del figcaption */
+    padding-bottom: 30px; /* Afegeix espai sota del figcaption */
+}
+
+
+
+
+/* Recursos.html */
+section {
+    display: flex; /* Aplica un model de caixa flexible a la secció */
+    align-items: center; /* Centra els elements fills horitzontalment */
+    justify-content: center; /* Centra els elements fills verticalment */
+    flex-direction: column; /* Organitza els elements fills en columna */
+}
+
+section li {
+    font-size: 20px; /* Estableix la mida de la font dels elements de la llista dins de la secció */
+}
+
+section li::marker {
+    color: green; /* Estableix el color del marcador de la llista */
+    font-size: 30px; /* Estableix la mida del marcador de la llista */
+}
+
+.titolVideo {
+    list-style: none; /* Elimina els punts de la llista per a la classe titolVideo */
+    margin-top: 20px; /* Afegeix espai superior a la classe titolVideo */
+}
